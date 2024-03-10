@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import portfolio from './portfolio.jpg';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             </p>
         
         </div>
-
+<img src={portfolio} className="App-logo" alt="logo" />
         <div>
         <p>&copy;{new Date().getFullYear()}This template is made by me</p>
             
