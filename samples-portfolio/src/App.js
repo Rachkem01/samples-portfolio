@@ -1,5 +1,5 @@
 
-import './App.css';
+
 
 function App() {
   return (
@@ -12,13 +12,10 @@ function App() {
                 <button className="more">MORE ABOUT ME</button>
                 <button className="hire">HIRE ME</button>
             </p>
-        
         </div>
-<img src={portfolio} className="App-logo" alt="logo" />
-        <div>
         <p>&copy;{new Date().getFullYear()}This template is made by me</p>
             
-        </div>
+    
     </section>
  
   );
